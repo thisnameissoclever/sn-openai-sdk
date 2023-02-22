@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="25fcc4772f4521101ba85d492799b63b" label="OpenAI Response" max_length="40" name="x_13231_openai_sdk_openai_response" type="collection">
+        <element display="true" label="ID" mandatory="true" max_length="40" name="id" read_only="true" text_index="true" type="string" unique="true"/>
+        <element label="AI model" max_length="40" name="model" read_only="true" type="string"/>
+    </element>
+</database>

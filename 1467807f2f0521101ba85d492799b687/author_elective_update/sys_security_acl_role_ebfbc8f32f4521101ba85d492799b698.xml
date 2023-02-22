@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 21:37:47</sys_created_on>
+        <sys_id>ebfbc8f32f4521101ba85d492799b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_13231_openai_sdk_responses.x_13231_openai_sdk.admin</sys_name>
+        <sys_package display_value="OpenAI SDK" source="x_13231_openai_sdk">1467807f2f0521101ba85d492799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenAI SDK">1467807f2f0521101ba85d492799b687</sys_scope>
+        <sys_security_acl display_value="x_13231_openai_sdk_responses">e7fbc8f32f4521101ba85d492799b694</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ebfbc8f32f4521101ba85d492799b698</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 21:37:47</sys_updated_on>
+        <sys_user_role display_value="x_13231_openai_sdk.admin" name="x_13231_openai_sdk.admin">8367cc3f2f0521101ba85d492799b671</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OpenAI SDK">1467807f2f0521101ba85d492799b687</application>
+        <file_path/>
+        <instance_id>86becb17db0d9f004f035d00cf961982</instance_id>
+        <instance_name>dev54393</instance_name>
+        <name>sys_security_acl_role_ebfbc8f32f4521101ba85d492799b698</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-22 21:37:47</sys_created_on><sys_id>ebfbc8f32f4521101ba85d492799b698</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_13231_openai_sdk_responses.x_13231_openai_sdk.admin</sys_name><sys_package display_value="OpenAI SDK" source="x_13231_openai_sdk">1467807f2f0521101ba85d492799b687</sys_package><sys_policy/><sys_scope display_value="OpenAI SDK">1467807f2f0521101ba85d492799b687</sys_scope><sys_security_acl display_value="x_13231_openai_sdk_responses">e7fbc8f32f4521101ba85d492799b694</sys_security_acl><sys_update_name>sys_security_acl_role_ebfbc8f32f4521101ba85d492799b698</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-22 21:37:47</sys_updated_on><sys_user_role display_value="x_13231_openai_sdk.admin" name="x_13231_openai_sdk.admin">8367cc3f2f0521101ba85d492799b671</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>2011088784</payload_hash>
+        <record_name>x_13231_openai_sdk_responses.x_13231_openai_sdk.admin</record_name>
+        <reverted_from/>
+        <source>d467807f2f0521101ba85d492799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 21:37:47</sys_created_on>
+        <sys_id>27fbc8f32f4521101ba85d492799b6ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1867b0fa2480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 21:37:47</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>2bfbc8f309452110d57f91e66f420acd</update_guid>
+        <update_guid_history>2bfbc8f309452110d57f91e66f420acd:2011088784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_13231_openai_sdk_responses.x_13231_openai_sdk.admin">6bcc00772f4521101ba85d492799b6bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 21:41:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>028af17a6ff449008100120c516c2400</sys_id>
+        <sys_metadata>ebfbc8f32f4521101ba85d492799b698</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_13231_openai_sdk_responses.x_13231_openai_sdk.admin</sys_name>
+        <sys_package display_value="OpenAI SDK" source="x_13231_openai_sdk">1467807f2f0521101ba85d492799b687</sys_package>
+        <sys_parent display_value="">e7fbc8f32f4521101ba85d492799b694</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OpenAI SDK">1467807f2f0521101ba85d492799b687</sys_scope>
+        <sys_scope_delete display_value="">0005b715d0e4436080ea70e62ee9d440</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ebfbc8f32f4521101ba85d492799b698</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ebfbc8f32f4521101ba85d492799b698">27fbc8f32f4521101ba85d492799b6ce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 21:41:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
