@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="25fcc4772f4521101ba85d492799b63b" label="OpenAI Response" max_length="40" name="x_13231_openai_sdk_openai_response" type="collection">
+        <element label="Best of" max_length="10" name="best_of" type="integer"/>
+        <element label="Completion tokens" max_length="20" name="completion_tokens" type="integer"/>
+        <element label="Finish reason" max_length="40" name="finish_reason" type="string"/>
+        <element label="Frequency penalty" max_length="15" name="frequency_penalty" type="decimal"/>
         <element display="true" label="ID" mandatory="true" max_length="40" name="id" read_only="true" text_index="true" type="string" unique="true"/>
-        <element label="AI model" max_length="40" name="model" read_only="true" type="string"/>
+        <element label="Instructions" max_length="10000" name="instructions" type="string"/>
+        <element label="Max tokens" max_length="7" name="max_tokens" type="integer"/>
+        <element choice="1" label="Mode" max_length="20" name="mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Complete" sequence="100" value="complete"/>
+                <element inactive_on_update="false" label="Insert" sequence="200" value="insert"/>
+                <element inactive_on_update="false" label="Edit" sequence="300" value="edit"/>
+            </choice>
+        </element>
+        <element choice="1" label="AI model" max_length="40" name="model" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="text-davinci-003" sequence="100" value="text-davinci-003"/>
+                <element inactive_on_update="false" label="text-curie-001" sequence="200" value="text-curie-001"/>
+                <element inactive_on_update="false" label="text-davinci-insert-002" sequence="300" value="text-davinci-insert-002"/>
+                <element inactive_on_update="false" label="text-davinci-edit-001" sequence="400" value="text-davinci-edit-001"/>
+                <element inactive_on_update="false" label="code-davinci-edit-001" sequence="500" value="code-davinci-edit-001"/>
+                <element inactive_on_update="false" label="code-davinci-002" sequence="600" value="code-davinci-002"/>
+            </choice>
+        </element>
+        <element label="Presence penalty" max_length="15" name="presence_penalty" type="decimal"/>
+        <element label="Prompt" max_length="10000" name="prompt" type="string"/>
+        <element label="Prompt tokens" max_length="20" name="prompt_tokens" type="integer"/>
+        <element label="Response" max_length="10000" name="response" type="string"/>
+        <element label="Suffix" max_length="10000" name="suffix" type="string"/>
+        <element label="Temperature" max_length="15" name="temperature" type="decimal"/>
+        <element label="Top P" max_length="15" name="top_p" type="decimal"/>
+        <element default="javascript:(parseInt(current.getValue('prompt_tokens')) + parseInt(current.getValue('completion_tokens')))" label="Total tokens" max_length="22" name="total_tokens" type="integer"/>
     </element>
 </database>

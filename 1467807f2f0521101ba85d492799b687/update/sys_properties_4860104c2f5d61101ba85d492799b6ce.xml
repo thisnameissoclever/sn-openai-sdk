@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices>text-davinci-003&#13;
+text-curie-001&#13;
+text-davinci-insert-002&#13;
+text-davinci-edit-001&#13;
+code-davinci-edit-001&#13;
+code-davinci-002</choices>
+        <description>The default "model" to use for API calls when a specific model is not specified by calling the .setModel() method. &lt;br /&gt;&#13;
+The available choices for this property are the some of the more common and generally useful models, depending on the use-case, but there are others you can use as well. You may edit this system propertie's choices to change what's available, just like you can with the Model choice field on the OpenAI Response table.&lt;br /&gt;&#13;
+More information on available models and their specific uses can be found in &lt;a href="https://platform.openai.com/docs/models/overview" target="_blank"&gt;OpenAI's documentation&lt;/a&gt;. </description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_13231_openai_sdk.model.default</name>
+        <read_roles/>
+        <suffix>default_model</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-23 17:33:59</sys_created_on>
+        <sys_id>4860104c2f5d61101ba85d492799b6ce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_13231_openai_sdk.model.default</sys_name>
+        <sys_package display_value="OpenAI SDK" source="x_13231_openai_sdk">1467807f2f0521101ba85d492799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenAI SDK">1467807f2f0521101ba85d492799b687</sys_scope>
+        <sys_update_name>sys_properties_4860104c2f5d61101ba85d492799b6ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-23 17:34:57</sys_updated_on>
+        <type>choicelist</type>
+        <value>text-davinci-003</value>
+        <write_roles>x_13231_openai_sdk.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=4860104c2f5d61101ba85d492799b6ce"/>
+</record_update>
