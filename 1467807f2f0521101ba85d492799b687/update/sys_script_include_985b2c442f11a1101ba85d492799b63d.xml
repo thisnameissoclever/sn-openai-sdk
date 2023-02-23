@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_13231_openai_sdk.OpenAIUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>OpenAIUtil</name>
+        <script><![CDATA[var OpenAIUtil = Class.create();
+OpenAIUtil.prototype = {
+	initialize: function() {
+		this._initConfig();
+	},
+	
+	reviewCode: function(scriptValue, contextObj) {
+		//todo: implement
+		//todo: Use input and instruction fields to generate a prompt, and use the default model of text-davinci-edit-001.
+	},
+	
+	predictStringFieldValue: function(grCurrent, fieldToPredictName) {
+		//todo: implement
+	},
+	
+	predictChoiceFieldValue: function(grCurrent, fieldToPredictName) {
+		//todo: implement
+	},
+	
+	predictReferenceFieldValue: function(grCurrent, fieldToPredictName, grOptions) {
+		//todo: implement
+	},
+	
+	insertPredictedText: function(prompt, suffix) {
+		//todo: implement
+	},
+	
+	setInstructions: function(instructions) {
+		//todo: implement
+	},
+	
+	/* OPTIONAL CONFIGURATION METHODS BELOW */
+	
+	setModel: function(modelName) {
+		//todo: implement
+	},
+	
+	setMode: function(modeName) {
+		//todo: implement
+	},
+	
+	setTemperature: function(tempVal) {
+		//todo: implement
+	},
+	
+	setMaxTokens: function(maxTokens) {
+		//todo: implement
+	},
+	
+	setTopP: function(topPVal) {
+		//todo: implement
+	},
+	
+	setFrequencyPenalty: function(frequencyPenalty) {
+		//todo: implement
+	},
+	
+	setPresencePenalty: function(presencePenalty) {
+		//todo: implement
+	},
+	
+	/* PRIVATE HELPER METHODS BELOW */
+	
+	_initConfig: function() {
+		this.current_config = {
+			model: null,
+			mode: null,
+			temperature: 0.7,
+			top_p: 1,
+			max_tokens: 100,
+			frequency_penalty: 0,
+			presence_penalty: 0
+		};
+	},
+	
+	_getModel: function() {
+		//todo: implement
+	},
+	
+	_getMode: function() {
+		//todo: implement
+	},
+	
+	_getTemperature: function() {
+		//todo: implement
+	},
+	
+	_getTopP: function() {
+		//todo: implement
+	},
+	
+	_getMaxTokens: function() {
+		//todo: implement
+	},
+	
+	_getFrequencyPenalty: function() {
+		//todo: implement
+	},
+	
+	_getPresencePenalty: function() {
+		//todo: implement
+	},
+	
+	type: 'OpenAIUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-23 18:49:31</sys_created_on>
+        <sys_id>985b2c442f11a1101ba85d492799b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OpenAIUtil</sys_name>
+        <sys_package display_value="OpenAI SDK" source="x_13231_openai_sdk">1467807f2f0521101ba85d492799b687</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OpenAI SDK">1467807f2f0521101ba85d492799b687</sys_scope>
+        <sys_update_name>sys_script_include_985b2c442f11a1101ba85d492799b63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-23 18:49:31</sys_updated_on>
+    </sys_script_include>
+</record_update>
